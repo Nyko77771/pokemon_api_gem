@@ -6,6 +6,7 @@ Gem:Specification.new do |s|
     s.description = 'This gem provides a simple interface to interact with the Pokémon API, allowing users to fetch data about Pokemon cards and related information.'
     s.authors     = 'Nykyta McDonald'
     s.email       = 'x22140115@student.nci.ie'
-    s.files       = 'lib/pokemon_api_gem.rb'
+    s.files       = ['lib/pokemon_price_tracker.rb', 'lib/pokemon_tcg_io.rb']
+    s.add_dependency 'pokemon_tcg_sdk', '~> 4.5.0'
 end
 
